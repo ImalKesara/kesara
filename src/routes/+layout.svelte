@@ -2,6 +2,7 @@
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
 	import Navbar from '$lib/components/Navbar.svelte';
+	import { ModeWatcher } from 'mode-watcher';
 
 	let { children } = $props();
 </script>
@@ -10,6 +11,8 @@
 	<link rel="icon" href={favicon} />
 	<title>Imal Kesara</title>
 </svelte:head>
+
+<ModeWatcher />
 
 <!-- selection does highlights when you trying to select any text  -->
 <main class="selection:bg-foreground selection:text-background">
