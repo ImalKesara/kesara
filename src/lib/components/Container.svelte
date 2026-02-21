@@ -11,7 +11,8 @@
 
 <div
 	class={cn(
-		'xs:max-w-lg mx-auto flex h-full max-w-md items-center justify-center border-x sm:max-w-xl md:max-w-3xl lg:max-w-3xl'
+		'mx-auto flex h-full max-w-md items-center justify-center border-x sm:max-w-xl md:max-w-3xl lg:max-w-3xl',
+		className
 	)}
 	{...restProps}
 >

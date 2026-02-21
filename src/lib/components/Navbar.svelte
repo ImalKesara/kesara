@@ -34,7 +34,7 @@
 	});
 </script>
 
-<header class="inset-x-2 top-0 left-0 z-20 bg-background text-sm">
+<header class="inset-x-2 top-0 left-0 z-20 bg-background text-sm sticky">
 	<Separator />
 	<Container>
 		<nav class="mx-auto flex h-18 max-w-5xl items-center justify-between px-4">
