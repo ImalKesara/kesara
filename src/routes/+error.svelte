@@ -54,7 +54,9 @@
 				{isPageNotFound ? "Couldn't find the page you were looking for." : page.error?.message}
 			</h2>
 			<a href="/">
-				<Button variant="outline" class="cursor-pointer" aria-label="Go to Home btn">Go to Home</Button>
+				<Button variant="outline" class="cursor-pointer" aria-label="Go to Home btn"
+					>Go to Home</Button
+				>
 			</a>
 		</div>
 	</div>

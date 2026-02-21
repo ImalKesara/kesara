@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+	import HeroSection from '$lib/components/Home/Hero-section.svelte';
+	import Separator from '$lib/components/ui/separator/separator.svelte';
+</script>
+
+<div class="min-h-screen">
+	<Separator />
+	<HeroSection />
+	<Separator />
+</div>
