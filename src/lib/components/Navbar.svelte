@@ -63,6 +63,7 @@
 			<!-- Menu icon / visible on smaller screen -->
 			<div class="flex items-center sm:hidden">
 				<Button
+					aria-label="main menu"
 					variant="ghost"
 					size="icon"
 					class="cursor-pointer rounded-full"
@@ -78,7 +79,10 @@
 
 			<!-- menu icon appearance -->
 			{#if isMenuOpen}
-				<div class="absolute top-12 right-4 z-20 w-58 flex-col border bg-background p-4 shadow-md">
+				<div
+					class="absolute top-12 right-4 z-20 w-58 flex-col border bg-background p-4 shadow-md"
+					aria-label="Open Mobile Menu"
+				>
 					<div class="flex items-center justify-center">
 						<span>Theme</span>
 						<Button
