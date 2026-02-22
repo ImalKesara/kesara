@@ -1,10 +1,12 @@
 <script lang="ts">
-	import HeroSection from '$lib/components/Home/Hero-section.svelte';
+	import { HeroSection, ProfileSection } from '$lib';
 	import Separator from '$lib/components/ui/separator/separator.svelte';
 </script>
 
 <div class="min-h-screen">
 	<Separator />
 	<HeroSection />
+	<Separator />
+	<ProfileSection />
 	<Separator />
 </div>

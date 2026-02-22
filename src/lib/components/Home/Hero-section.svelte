@@ -5,5 +5,5 @@
 
 <!-- gives fixed height -->
 <Container class="h-60">
-	<DotBackground className="">IK</DotBackground>
+	<DotBackground class="">IK.</DotBackground>
 </Container>
